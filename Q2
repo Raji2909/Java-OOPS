@@ -1,0 +1,14 @@
+package guviTask5;
+
+public class ConstractorA {
+	public ConstractorA () {
+		System.out.println("Default Constructor of A");
+	}
+	public ConstractorA (int a) {
+	    this();
+		System.out.println("Parameter Constructor of A value :" + a);
+	}
+    public static void main(String[] args) {
+	  	ConstractorA obj = new ConstractorA (50);
+	}
+}
