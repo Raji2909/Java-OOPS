@@ -1,0 +1,24 @@
+package guviTask5;
+
+public class Test {
+	public static void main(String args[]) {
+        Test acct = new Test();
+        System.out.println("Current balance : " + acct.balance());
+        System.out.println("Withdrawing $200");
+        acct.withdraw(200);
+        System.out.println("Current balance : " + acct.balance());
+        acct.withdraw(3500);
+ 
+    }
+
+	private String balance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private void withdraw(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
