@@ -1,0 +1,20 @@
+package guviTask5;
+
+public class AccountClass extends AccountClassB {
+	    private String message;
+	 
+	    public AccountClass(String message) {
+	        this.message = message;
+	    }
+	 
+	    public AccountClass(Throwable cause, String message) {
+	        super();
+	        this.message = message;
+	    }
+	 
+	    public String getMessage() {
+	        return message;
+	    }
+	 
+	}
+
